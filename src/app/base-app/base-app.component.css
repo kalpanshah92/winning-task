@@ -1,0 +1,33 @@
+.buttonRight {
+    float: right;
+    margin-right: 11px;
+}
+
+.button {
+    background-color: #2d6ef7;
+    padding: 15px 32px;
+    color: #ffffff;
+}
+
+.buttonWhite {
+    background-color: #ffffff;
+    padding: 15px 32px;
+    color: #2d6ef7;
+    margin-left: 11px;
+}
+.board {
+    margin: 125px 50px 75px 350px;
+    width: 45%;
+    border: 3px solid #000000;
+    padding: 10px;
+    background-color: #ffffff;
+    vertical-align: middle;
+    float: left;
+    z-index: 1; 
+    box-shadow: 10px 10px #888888;
+  
+}
+
+.setMargin {
+    margin-left: 10px;
+}

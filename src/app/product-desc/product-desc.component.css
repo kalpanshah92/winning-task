@@ -1,0 +1,26 @@
+.myDiv {
+    width: 100px; 
+    float:left; 
+    height:100px; 
+    background:gray; 
+    margin:10px;
+    padding: 20px;
+  }
+.rigth {
+    
+    width: 100px;
+    float:left; 
+    height:100px; 
+    margin:10px;
+}
+
+.text {
+  color: #2d6ef7;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.setMargin {
+  margin-left: 10px;
+}
+  

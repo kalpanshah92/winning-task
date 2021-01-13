@@ -1,0 +1,15 @@
+.roundButton {
+   
+    width:25px;
+    height:25px;
+    line-height: 4px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background: #2d6ef7;
+    
+    font-size:20px;
+    font-weight:bold;
+}
