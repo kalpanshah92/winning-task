@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { RouterTestingModule } from '@angular/router/testing';
 import { BaseAppComponent } from './base-app.component';
 
 describe('BaseAppComponent', () => {
@@ -8,7 +8,8 @@ describe('BaseAppComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BaseAppComponent ]
+      declarations: [ BaseAppComponent ],
+      imports: [RouterTestingModule]
     })
     .compileComponents();
   });
@@ -19,7 +20,16 @@ describe('BaseAppComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
+  // Test cases
+
+  // Test for checkout function
+  it('Checkout function',() =>{
+    expect(component.checkout).toBeTruthy(); 
   });
+
+  // Test for continue shopping function
+  it('Continue shopping function',() =>{
+    expect(component.cancelComp).toBeTruthy(); 
+  });
+
 });

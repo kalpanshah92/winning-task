@@ -5,6 +5,7 @@ import { ProductDescComponent } from './product-desc.component';
 describe('ProductDescComponent', () => {
   let component: ProductDescComponent;
   let fixture: ComponentFixture<ProductDescComponent>;
+  
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
