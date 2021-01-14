@@ -1,4 +1,12 @@
 Instructions
+=====================================================
+1) run application with ng serve
+2) click on open cart to view cart.
+3) add/sub quantity
+4) cancel and continue shopping button will close the component.
+5) the checkout button will redirect you to the checkout page.
+
+Functionality of this application
 ===================================================
 1) Show Cart
 2) Close Cart 
