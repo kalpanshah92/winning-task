@@ -13,3 +13,35 @@
     font-size:20px;
     font-weight:bold;
 }
+
+
+button.plus {
+    border-radius: 50%;
+    background: #2d6ef7;
+    color: #fff;
+    border: 0px;
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+
+button.minus {
+    border-radius: 50%;
+    background: #2d6ef7;
+    color: #fff;
+    border: 0px;
+    width: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 22px;
+}
+.quantity {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
