@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class QuantityComponent implements OnInit {
   qty= 1;
 
+  // Function to reduce quantity
   subQty() {
     if (this.qty > 1)
     {
@@ -15,6 +16,7 @@ export class QuantityComponent implements OnInit {
     }
   }
 
+  // Function to add quantity
   addQty(){
     this.qty++;
   }

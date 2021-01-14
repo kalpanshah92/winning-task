@@ -8,10 +8,9 @@ describe('BaseAppComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BaseAppComponent ],
-      imports: [RouterTestingModule]
-    })
-    .compileComponents();
+      declarations: [BaseAppComponent],
+      imports: [RouterTestingModule],
+    }).compileComponents();
   });
 
   beforeEach(() => {
@@ -23,13 +22,12 @@ describe('BaseAppComponent', () => {
   // Test cases
 
   // Test for checkout function
-  it('Checkout function',() =>{
-    expect(component.checkout).toBeTruthy(); 
+  it('Checkout function', () => {
+    expect(component.checkout).toBeTruthy();
   });
 
   // Test for continue shopping function
-  it('Continue shopping function',() =>{
-    expect(component.cancelComp).toBeTruthy(); 
+  it('Continue shopping function', () => {
+    expect(component.cancelComp).toBeTruthy();
   });
-
 });
